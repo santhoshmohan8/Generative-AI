@@ -1,0 +1,9 @@
+conda install -n genai
+conda activate genai
+conda search python
+conda install python=3.9.1
+
+pip3 install -r requirements.txt
+
+#ollama commands
+ollama pull llama3
